@@ -1,5 +1,28 @@
-# TestSweets example
+# Permission Accept Bounty
 
-This application serves as the example for you to test our and work on TestSweets if you don't have a project to work on. The `master` branch has the empty project in it and will always be the clean starting project.
+The price for this bounty is $250 and the requirements are as follows. 
 
-To see an example of how it looks the branch `guide/01-get-started` has the code from the first testsweets tutorial which you can see here[[[[[Add the written get started guide here]]]]]
+### Requirement
+
+When running a Flutter Driver Test, and a permission dialog is shown, we should be able to accept it automatically using code. 
+
+This should be possible for Android and for iOS.
+
+### Technical Overview
+
+In `main_test.dart` is where you'll find the driver test. 
+
+It taps on the button, then calls `requestData` which goes to the `main.dart` file, and executes the function `acceptNativePermissionDialog` on the `NativeControlService`. 
+
+In this function is where you can add the code to accept permissions, you can also add underneat the test code on line 30 in `main_test.dart`
+
+### What Is Allowed
+
+- This will be run on Android emulators and iOS Simulators
+- You can use `adb` directly from the dart code if you need to
+- You can use any of the `xcode` command-line tools
+
+### Run the code
+
+1. Run `flutter pub get`
+2. Run `flutter drive` and make sure you have an emulator/simulator open
