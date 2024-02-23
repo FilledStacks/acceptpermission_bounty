@@ -2,6 +2,8 @@
 
 The price for this bounty is $250 and the requirements are as follows. 
 
+[Bounty hosted by Ticket Stacker](https://ticketstacker.substack.com/)
+
 ### Requirement
 
 When running a Flutter Driver Test, and a permission dialog is shown, we should be able to accept it automatically using code. 

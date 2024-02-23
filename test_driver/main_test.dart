@@ -29,6 +29,9 @@ void main() {
 
       final result = await driver.requestData(ksAcceptPermission);
 
+      // TASK: If you need to add code here, you can replace the line above with
+      // your permission accept code
+
       await driver.waitFor(homeViewFinder, timeout: Duration(seconds: 3));
     });
   });
