@@ -1,4 +1,4 @@
-# Permission Accept Bounty
+# Permission Accept Bounty [Claimed 🔥]
 
 The price for this bounty is $250 and the requirements are as follows. 
 
